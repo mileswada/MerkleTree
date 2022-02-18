@@ -1,5 +1,4 @@
 import hashlib
-import string
 
 class MerkleNode:
     def __init__(self, left=None, right=None, parent=None, hash='0') -> None:

@@ -2,7 +2,6 @@ from opcode import haslocal
 from random import random
 from Merkle import MerkleTree, MerkleNode, verify_proof_of_inclusion
 import hashlib
-import random
 
 def test_simple():
     mt = MerkleTree()
